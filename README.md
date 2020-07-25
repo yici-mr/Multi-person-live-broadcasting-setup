@@ -39,7 +39,7 @@ livepss是验证直播者的账户密码。
 ## 测试链接&推流链接&直播链接
 ```
 提示：服务器很卡，推流成功可能要缓冲1-2分钟。
-直播平台：live.yici.info (点开测试直播间)
+直播平台：live.yici.info:99 (点开测试直播间)
 obs推流设置：
 服务器：rtmp://live.yici.info:1935/hls
 串流密钥：test?user=test&pass=test
