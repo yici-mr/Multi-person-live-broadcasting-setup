@@ -45,7 +45,7 @@ obs推流设置：
 串流密钥：test?user=test&pass=test
 应用后点击开始推流，进入直播间就OK了！
 ```
-*China ICQ = QQ
+* China ICQ = QQ
 ```
 454085993
 ```
