@@ -1,0 +1,13 @@
+.tc_TcQue
+{
+width:440px; 
+
+margin-left:-270px;
+
+}
+.tc_TcQueT{ text-align:center; padding-top:10px; padding-bottom:10px;}
+.tc_TcQueN{ font-size:10px; margin-bottom:10px; line-height:36px; text-align:justify;}
+input.tc_TcRegA{ width:200px; height:42px; line-height:42px; text-align:center; border-radius:5px; font-size:10px; display:block; margin:20px auto 0;border:none;cursor: pointer;}
+.tc_TcBJ{z-index:9998;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.4); display:none;}
+.tc_TcK{top:10%;left:50%; margin-left:-20%;width:40%;border-radius:8px; padding:0 50px 30px; max-height:700px; z-index:9999;position:fixed; background:#FFF; overflow:auto; display:none;}
+.tc_backB1{FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#5baffd,endColorStr=#3a81ec);background: -ms-linear-gradient(left, #5baffd, #3a81ec);background:-moz-linear-gradient(left,#5baffd,#3a81ec);background:-webkit-gradient(linear, 0% 100%, 0% 0%,from(#5baffd), to(#3a81ec));background:-webkit-gradient(linear, 0% 100%, 0% 0%, from(#5baffd), to(#3a81ec));background: -webkit-linear-gradient(left, #5baffd, #3a81ec);background:-o-linear-gradient(left, #5baffd, #3a81ec);color:#FFF;box-shadow:0 7px 10px rgba(75,152,244,0.45);}

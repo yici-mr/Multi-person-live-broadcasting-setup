@@ -1,0 +1,42 @@
+[ 2020-04-09T15:44:46+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Index&a=table
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005373s ]
+SQL: SHOW COLUMNS FROM `cc_user` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `cc_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2020-04-09T15:44:46+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
