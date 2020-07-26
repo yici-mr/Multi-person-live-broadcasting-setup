@@ -17,7 +17,7 @@ class IndexController extends Controller {
             $this->Display();
         }
         if ($_GET['room'] == 02){
-            $arr[] = array('url'=>'http://live.yici.info:8080/hls/wu.m3u8');//需要修改域名
+            $arr[] = array('url'=>'http://live.yici.info:8080/hls/test.m3u8');//需要修改域名
 
             $this->assign('pic',$arr);
             $this->Display();
